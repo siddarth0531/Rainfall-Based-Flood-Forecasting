@@ -1,0 +1,43 @@
+Flood Prediction System 🌊
+Overview
+This project is an AI-driven solution designed to predict the probability of floods based on meteorological data. Using the XGBoost Classifier, the system achieves a high accuracy of 96.55%. The project features a user-friendly web interface built with Flask, allowing users to receive instant risk assessments (Chance/No Chance).
+
+🚀 Key Features
+Machine Learning Engine: Powered by XGBoost for high-speed and accurate classification.
+
+Web Interface: Interactive Flask application for real-time data entry and results.
+
+Performance Visuals: Includes Confusion Matrix and Accuracy metrics for scientific validation.
+
+🛠️ Tech Stack
+Language: Python 3.10
+
+ML Frameworks: Scikit-Learn, XGBoost
+
+Data Handling: Pandas, NumPy
+
+Web: Flask, HTML, CSS
+
+Environment: Google Colab & VS Code
+
+📁 Project Structure
+This repository is organized into 8 core phases:
+
+1_Ideation_Phase: Empathy maps and user personas.
+
+2_Requirement_Analysis: Technical requirements and Data Flow Diagrams.
+
+3_Project_Design: System architecture and UI mockups.
+
+4_Project_Planning: Timeline and task management.
+
+5_Development_Phase: Python scripts, model files (.save), and HTML templates.
+
+6_Performance_Testing: Accuracy scores and Confusion Matrix.
+
+7_Doc_and_Demo: Final report and result screenshots.
+
+📊 Performance Summary
+Accuracy: 96.55%
+
+Model Type: XGBoost (Extreme Gradient Boosting)

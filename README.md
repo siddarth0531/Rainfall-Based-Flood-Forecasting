@@ -38,6 +38,12 @@ This repository is organized into 8 core phases:
 7_Doc_and_Demo: Final report and result screenshots.
 
 📊 Performance Summary
-Accuracy: 96.55%
 
 Model Type: XGBoost (Extreme Gradient Boosting)
+•  Test Samples: 23 total (20 Safe, 3 Flood)
+•  Accuracy: 100%
+•  Result: The model successfully identified all flood risks and safe conditions without any False Positives or False Negatives.
+Why XGBoost won:
+1.	Gradient Boosting: It builds trees sequentially, where each new tree corrects the errors of the previous ones.
+2.	Regularization: It has built-in $L1$ and $L2$ regularization, which prevents the model from "memorizing" the data (overfitting).
+3.	Handling Sparsity: It is highly efficient at handling missing values or varied weather scales (like Rainfall vs. Temperature).

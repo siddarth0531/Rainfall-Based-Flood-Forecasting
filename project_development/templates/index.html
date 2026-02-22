@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flood Risk Predictor</title>
+    <style>
+        body {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                        url('https://images.unsplash.com/photo-1516912481808-3b0276b2dc0b?auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            font-family: 'Segoe UI', sans-serif;
+            display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px);
+            padding: 40px; border-radius: 20px; border: 1px solid rgba(255,255,255,0.2);
+            color: white; width: 350px; text-align: center;
+        }
+        input {
+            width: 100%; padding: 12px; margin: 8px 0; border-radius: 5px; border: none; outline: none;
+        }
+        button {
+            width: 100%; padding: 15px; margin-top: 20px; border-radius: 5px; border: none;
+            background: #3498db; color: white; font-weight: bold; cursor: pointer;
+        }
+        button:hover { background: #2980b9; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Flood Predictor</h2>
+        <form action="/predict" method="post">
+            <input type="number" step="any" name="f1" placeholder="Rainfall (mm)" required>
+            <input type="number" step="any" name="f2" placeholder="Cloud Cover (%)" required>
+            <input type="number" step="any" name="f3" placeholder="Wet Day Freq" required>
+            <input type="number" step="any" name="f4" placeholder="Vapour Pressure" required>
+            <input type="number" step="any" name="f5" placeholder="Temperature (°C)" required>
+            <button type="submit">Check Risk</button>
+        </form>
+    </div>
+</body>
+</html>

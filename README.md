@@ -47,3 +47,6 @@ Why XGBoost won:
 2.	Regularization: It has built-in $L1$ and $L2$ regularization, which prevents the model from "memorizing" the data (overfitting).
 3.	Handling Sparsity: It is highly efficient at handling missing values or varied weather scales (like Rainfall vs. Temperature).
 exection demo is in this link https://drive.google.com/file/d/13_NVVIo-Zd-7yF2WrA6RxaC6FchvitFN/view?usp=sharing
+The application is fully IBM Cloud Ready. While the logic for IBM Watson Machine Learning has been developed and verified (see ibm_app_logic.py), the current live demonstration utilizes a local Flask deployment.
+
+Note on Cloud Hosting: Due to the transition of IBM Cloud's Free Tier to a paid subscription model (billing-restricted), the model is currently served via a local environment to ensure 24/7 accessibility for reviewers without incurring cloud service costs. The backend code remains 100% compatible with the IBM Watson REST API

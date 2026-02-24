@@ -14,7 +14,7 @@ Language: Python 3.10
 
 ML Frameworks: Scikit-Learn, XGBoost
 
-Data Handling: Pandas, NumPy
+Data Handling: Pandas, NumPy exection demo is in this link https://drive.google.com/file/d/13_NVVIo-Zd-7yF2WrA6RxaC6FchvitFN/view?usp=sharing
 
 Web: Flask, HTML, CSS
 

@@ -14,8 +14,7 @@ Language: Python 3.10
 
 ML Frameworks: Scikit-Learn, XGBoost
 
-Data Handling: Pandas, NumPy exection demo is in this link https://drive.google.com/file/d/13_NVVIo-Zd-7yF2WrA6RxaC6FchvitFN/view?usp=sharing
-
+Data Handling: Pandas, NumPy 
 Web: Flask, HTML, CSS
 
 Environment: Google Colab & VS Code
@@ -47,3 +46,4 @@ Why XGBoost won:
 1.	Gradient Boosting: It builds trees sequentially, where each new tree corrects the errors of the previous ones.
 2.	Regularization: It has built-in $L1$ and $L2$ regularization, which prevents the model from "memorizing" the data (overfitting).
 3.	Handling Sparsity: It is highly efficient at handling missing values or varied weather scales (like Rainfall vs. Temperature).
+exection demo is in this link https://drive.google.com/file/d/13_NVVIo-Zd-7yF2WrA6RxaC6FchvitFN/view?usp=sharing
